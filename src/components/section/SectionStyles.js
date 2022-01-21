@@ -7,8 +7,15 @@ export const SectionStyles = styled.div`
 
   .contact-info {
     margin-top: 2em;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+
+    ul {
+      margin: 0;
+    }
+
+    @media screen and (min-width: 640px) {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
   }
 `;
