@@ -15,7 +15,7 @@ function App() {
           <Title content="Johnson Ta" bold />
 
           <p className="sub-title">Frontend & Jamstack Developer<br />
-            <a href="mail:jnsnta@gmail.com">Say hello!</a></p>
+            <a href="mailto:jnsn.ta@gmail.com">Say hello!</a></p>
         </Header>
 
         <Footer />
