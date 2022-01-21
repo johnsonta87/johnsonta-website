@@ -14,7 +14,7 @@ export default function Grid() {
     },
     {
       skill: 'Javascript',
-      description: 'Async programming, DOM manipulations, state management, JSX/Typescript, jQuery.'
+      description: 'Async programming, DOM manipulations, state management, JSX/Typescript.'
     },
     {
       skill: 'API & Data Handling',
