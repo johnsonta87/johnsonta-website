@@ -2,9 +2,13 @@ import styled, { css } from 'styled-components';
 
 export const GridStyles = styled.ul`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   list-style: none;
   grid-gap: 2em;
+
+  @media screen and (min-width: 640px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
 `;
 
 export const GridItemStyles = styled.li`
