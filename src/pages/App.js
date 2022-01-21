@@ -15,8 +15,11 @@ function App() {
           <Avatar img={avatar} />
           <Title content="Johnson Ta" bold />
 
-          <p className="sub-title">Frontend & Jamstack Developer<br />
-            <a href="mailto:jnsn.ta@gmail.com">Say hello!</a></p>
+          <p className="sub-title">
+            Frontend & Jamstack Developer
+            <br />
+            <span className="say-hello"><a href="mailto:jnsn.ta@gmail.com">Say hello!</a></span>
+          </p>
         </Header>
 
       <Main>

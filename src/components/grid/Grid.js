@@ -13,6 +13,10 @@ export default function Grid() {
       description: 'Work with React (Apollo, Graph QL, NextJS/Gatsby/Create React App).'
     },
     {
+      skill: 'Javascript',
+      description: 'Async programming, DOM manipulations, state management, JSX/Typescript, jQuery.'
+    },
+    {
       skill: 'API & Data Handling',
       description: 'Get and post secure api calls and displaying data properly to the frontend.'
     },
@@ -23,6 +27,14 @@ export default function Grid() {
     {
       skill: 'Automated Testing',
       description: 'Jest, Enzyme, React Testing Library.'
+    },
+    {
+      skill: 'Ecommerce',
+      description: 'Backend architecture with product listing, custom flow of cart system, confirmation and checkout stages.'
+    },
+    {
+      skill: 'Accessibility',
+      description: 'Build components that meet WCAG guidelines, testing with Axe Testing Tool.'
     },
     {
       skill: 'Headless CMS',

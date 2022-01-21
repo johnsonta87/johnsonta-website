@@ -13,4 +13,10 @@ export const HeaderStyles = styled.div`
     margin: 1rem auto;
     text-align: center;
   }
+
+  .say-hello {
+    font-size: 1.75rem;
+    font-weight: bold;
+    font-style: italic;
+  }
 `;
