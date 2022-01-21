@@ -4,14 +4,14 @@ export const FooterStyles = styled.footer`
   font-family: Piazzolla,serif;
   color: ${props => props.theme.uiWhite};
   margin-top: 25px;
-  display: flex;
   padding-top: 50px;
   padding-bottom: 50px;
-  justify-content: space-between;
-  -webkit-justify-content: justify;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  align-items: flex-end;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
 
   .footer-links {
     flex: 1 1 auto;
