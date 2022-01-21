@@ -15,9 +15,7 @@ const CustomStyles = createGlobalStyle`
   html {
     background: ${props => props.theme.uiBlack};
     color: #dfdfdf;
-    height: 100%;
     position: relative;
-    min-height: 100vh;
   }
 
   a {
@@ -25,17 +23,40 @@ const CustomStyles = createGlobalStyle`
     text-decoration: none;
   }
 
+  ul, ol {
+    margin-top: 1em;
+
+    li {
+      list-style: none;
+    }
+  }
+
   p {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+    margin-bottom: 1em;
+
+    &:last-of-type {
+      margin: 0;
+    }
   }
 
   p, li {
     font-family: ${props => props.theme.primaryFont};
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  strong {
+    font-weight: bold;
   }
 
   h1, h2, h3, h4 {
     color: ${props => props.theme.uiGold};
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
   }
 
 `;

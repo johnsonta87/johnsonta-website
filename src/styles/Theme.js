@@ -3,6 +3,7 @@ export const themeVariables = {
     // UI COLORS
     uiBlack: '#111',
     uiWhite: '#dfdfdf',
+    uiGrey: '#cac3c3',
     uiPurple: '#170032',
     uiLightPurple: '#483d8b',
     uiGold: '#ffb24f',
