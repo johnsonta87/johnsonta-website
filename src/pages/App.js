@@ -18,7 +18,7 @@ function App() {
           <p className="sub-title">
             Frontend & Jamstack Developer
             <br />
-            <span className="say-hello"><a href="mailto:jnsn.ta@gmail.com">Say hello!</a></span>
+            <span className="say-hello"><a href="mailto:johnsonta87@gmail.com">Say hello!</a></span>
           </p>
         </Header>
 

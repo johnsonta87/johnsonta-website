@@ -17,7 +17,7 @@ export default function About() {
         <div classsName="column-1">
           <ul>
           <li><strong>Residence: </strong> Alliston, ON Canada</li>
-          <li><strong>Email: </strong> <a href="mailto:jnsn.ta@gmail.com">jnsn.ta@gmail.com</a></li>
+          <li><strong>Email: </strong> <a href="mailto:johnsonta87@gmail.com">johnsonta87@gmail.com</a></li>
           <li><strong>Phone: </strong> +1 416 453 2077</li>
           </ul>
       </div>
